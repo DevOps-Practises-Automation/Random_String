@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('git clone') {
             steps {
-              git branch: 'master', url: "https://github.com/sectool/Python-Random-Password-Generator.git"  
+              git branch: 'master', url: "https://github.com/ramesh-DevOps/Random_String.git"  
               sh "ls -ll"
             }
         }

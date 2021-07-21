@@ -10,7 +10,7 @@ pipeline {
         
         stage('Generate Password') {
             steps {
-              sh "python3 random.py" 
+              sh "python3 run.py" 
             }
         }
     }

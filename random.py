@@ -13,7 +13,7 @@ def get_random_password():
     password += random.choice(string.punctuation)
 
     # generate other characters
-    for i in range(9):
+    for i in range(10):
         password += random.choice(random_source)
 
     password_list = list(password)
@@ -23,5 +23,4 @@ def get_random_password():
     return password
 
 print("First Random Password is ", get_random_password())
-# output  qX49}]Ru!(
-print("Second Random Password is ", get_random_password())
+
